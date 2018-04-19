@@ -1,0 +1,17 @@
+{
+  "name": "bar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify index.js -o build.js"
+  },
+  "keywords": [],
+  "author": "soyuka",
+  "dependencies": {"foo": "*"},
+  "license": "MIT",
+  "browserify": {
+    "transform": ["babelify"]
+  }
+}
